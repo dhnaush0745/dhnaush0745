@@ -1,152 +1,90 @@
-<svg width="1200" height="300" viewBox="0 0 1200 300"
-  xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="190" viewBox="0 0 1200 190"
+xmlns="http://www.w3.org/2000/svg">
 
-  <defs>
+<rect width="1200" height="190" rx="14"
+fill="#020617"
+stroke="#1e293b"/>
 
-```
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-  <stop offset="0%" stop-color="#020617"/>
-  <stop offset="100%" stop-color="#0f172a"/>
-</linearGradient>
+<text x="30" y="35"
+font-family="monospace"
+font-size="14"
+fill="#7dd3fc">
+SYSTEM STATUS // 2026 </text>
 
-<linearGradient id="line" x1="0" x2="1">
-  <stop offset="0%" stop-color="#7dd3fc"/>
-  <stop offset="50%" stop-color="#c4b5fd"/>
-  <stop offset="100%" stop-color="#f9a8d4"/>
-</linearGradient>
+<line x1="30" y1="50" x2="1170" y2="50"
+stroke="#1e293b"/>
 
-<filter id="glow">
-  <feGaussianBlur stdDeviation="4" result="blur"/>
-  <feMerge>
-    <feMergeNode in="blur"/>
-    <feMergeNode in="SourceGraphic"/>
-  </feMerge>
-</filter>
+<text x="30" y="85"
+font-family="monospace"
+font-size="13"
+fill="#64748b">
+ROLE </text>
 
-<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-  <path d="M 32 0 L 0 0 0 32"
-        fill="none"
-        stroke="#1e293b"
-        stroke-width="1"/>
-</pattern>
-```
+<text x="30" y="108"
+font-family="monospace"
+font-size="15"
+fill="#f8fafc">
+SOFTWARE ENGINEER </text>
 
-  </defs>
+<text x="300" y="85"
+font-family="monospace"
+font-size="13"
+fill="#64748b">
+PRIMARY </text>
 
-  <!-- background -->
+<text x="300" y="108"
+font-family="monospace"
+font-size="15"
+fill="#c4b5fd">
+PYTHON / BACKEND </text>
 
-  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+<text x="570" y="85"
+font-family="monospace"
+font-size="13"
+fill="#64748b">
+DATABASE </text>
 
-  <!-- engineering grid -->
+<text x="570" y="108"
+font-family="monospace"
+font-size="15"
+fill="#c4b5fd">
+SQL / MONGODB </text>
 
-  <rect width="1200" height="300" rx="18" fill="url(#grid)" opacity="0.45"/>
+<text x="800" y="85"
+font-family="monospace"
+font-size="13"
+fill="#64748b">
+CLOUD </text>
 
-  <!-- top terminal bar -->
+<text x="800" y="108"
+font-family="monospace"
+font-size="15"
+fill="#c4b5fd">
+AWS </text>
 
-<rect x="0" y="0" width="1200" height="38"
-     rx="18"
-     fill="#0f172a"/>
+<circle cx="1110" cy="99" r="7"
+fill="#7dd3fc"> <animate
+attributeName="opacity"
+values="1;.25;1"
+dur="1.4s"
+repeatCount="indefinite"/> </circle>
 
-  <circle cx="25" cy="19" r="5" fill="#475569"/>
-  <circle cx="43" cy="19" r="5" fill="#475569"/>
-  <circle cx="61" cy="19" r="5" fill="#475569"/>
+<text x="1130" y="104"
+font-family="monospace"
+font-size="12"
+fill="#7dd3fc">
+ONLINE </text>
 
-<text x="88" y="24"
-     fill="#64748b"
-     font-family="monospace"
-     font-size="13">
-dhanush@engineering-console:~ </text>
+<text x="30" y="155"
+font-family="monospace"
+font-size="12"
+fill="#475569">
+MISSION: </text>
 
-  <!-- prompt -->
-
-<text x="70" y="105"
-     fill="#7dd3fc"
-     font-family="monospace"
-     font-size="16">
-$ whoami </text>
-
-  <!-- main name -->
-
-<text x="70" y="155"
-     fill="#f8fafc"
-     font-family="monospace"
-     font-size="50"
-     font-weight="700">
-DHANUSH.J </text>
-
-  <!-- animated cursor -->
-
-<rect x="390" y="119" width="10" height="46"
-     fill="#7dd3fc"
-     opacity="0.9"> <animate
-   attributeName="opacity"
-   values="1;0;1"
-   dur="1s"
-   repeatCount="indefinite"/> </rect>
-
-  <!-- subtitle -->
-
-<text x="74" y="190"
-     fill="#94a3b8"
-     font-family="monospace"
-     font-size="17">
-software engineer / backend / python </text>
-
-  <!-- status -->
-
-<text x="74" y="235"
-     fill="#64748b"
-     font-family="monospace"
-     font-size="13">
-[ SYSTEM READY ] </text>
-
-<text x="210" y="235"
-     fill="#7dd3fc"
-     font-family="monospace"
-     font-size="13">
-BUILDING USEFUL SOFTWARE </text>
-
-  <!-- animated scanning line -->
-
-<rect x="0" y="285" width="260" height="2"
-     fill="url(#line)"
-     filter="url(#glow)"> <animate
-   attributeName="x"
-   from="-260"
-   to="1200"
-   dur="4s"
-   repeatCount="indefinite"/> </rect>
-
-  <!-- right-side metadata -->
-
-<text x="910" y="105"
-     fill="#64748b"
-     font-family="monospace"
-     font-size="12">
-ENVIRONMENT </text>
-
-<text x="910" y="130"
-     fill="#c4b5fd"
-     font-family="monospace"
-     font-size="14">
-PYTHON </text>
-
-<text x="910" y="158"
-     fill="#c4b5fd"
-     font-family="monospace"
-     font-size="14">
-DJANGO </text>
-
-<text x="910" y="186"
-     fill="#c4b5fd"
-     font-family="monospace"
-     font-size="14">
-SQL </text>
-
-<text x="910" y="214"
-     fill="#c4b5fd"
-     font-family="monospace"
-     font-size="14">
-REST API </text>
+<text x="105" y="155"
+font-family="monospace"
+font-size="12"
+fill="#94a3b8">
+BUILD → UNDERSTAND → TEST → IMPROVE </text>
 
 </svg>
