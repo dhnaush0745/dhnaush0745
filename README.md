@@ -89,18 +89,6 @@ Machine learning project using NASA MODIS satellite data with preprocessing, SMO
 
 **Result:** Achieved 97.8% accuracy using Random Forest.
 
----
-
-# 📊 GitHub Stats
-
-![](https://github-readme-stats.vercel.app/api?username=dhnaush0745&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
-
-![](https://nirzak-streak-stats.vercel.app/?user=dhnaush0745&theme=dark&hide_border=false)
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=dhnaush0745&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
----
-
 ### ✍️ Developer Quote
 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
