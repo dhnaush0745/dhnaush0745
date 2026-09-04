@@ -162,18 +162,6 @@ Fire classification using NASA MODIS satellite data.
 </tr>
 </table>
 
----
-
-<div align="center">
-
-### 🐍 CONTRIBUTION MATRIX
-
-<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="90%"/>
-
-</div>
-
----
-
 ## 🛰️ `current_process`
 
 ```text
